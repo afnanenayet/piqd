@@ -13,5 +13,5 @@ env:
   -DJANGO=1.11 DB=sqlite
 
 script:
-  - python3 manage.py test
+  - python3 piqd_site/manage.py test
 
