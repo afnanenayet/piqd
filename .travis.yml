@@ -1,0 +1,17 @@
+# Travis CI configuration file for piqd project. Installs Python, Django, and 
+# MySQL, then instructs Django to run unit tests
+
+language: python
+
+python:
+  - "3.6"
+
+services: 
+  - mysql
+
+env:
+  -DJANGO=1.11 DB=sqlite
+
+script:
+  - python3 manage.py test
+
