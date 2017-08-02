@@ -28,3 +28,4 @@ use brew
 
     brew install git-flow
 
+[Here](https://datasift.github.io/gitflow/GitFlowForGitHub.html) is a primer on how to use `git-flow` with Github
