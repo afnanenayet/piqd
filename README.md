@@ -1,5 +1,12 @@
 # piqd
 
+## Build status
+
+|  stable  | dev  |  
+|---|---|
+| [![Build Status](https://travis-ci.com/afnanenayet/piqd.svg?token=QtxzrX3Qc2BDQfwx8D1K&branch=master)](https://travis-ci.com/afnanenayet/piqd)  | [![Build Status](https://travis-ci.com/afnanenayet/piqd.svg?token=QtxzrX3Qc2BDQfwx8D1K&branch=develop)](https://travis-ci.com/afnanenayet/piqd)  |   
+
+# What is it?
 Piqd is an advanced social dating system for millenials that utilizes 
 an advanced survey system and algorithmically precise humor.
 
