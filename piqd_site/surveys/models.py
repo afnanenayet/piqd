@@ -16,6 +16,7 @@ class Question(models.Model):
 class Choice(models.Model):
     """An answer to a question (a multiple choice answer), multiple choices 
     are associated with a Question in a many-to-one relationship"""
+    # TODO: make sure we associate a user with each choice that they make
     question = models.ForeignKey(Question, on_delete = models.Cascade)
     choice_text = models.CharField(max_length = 2000)
     votes = models.IntegerField(default = 0)
